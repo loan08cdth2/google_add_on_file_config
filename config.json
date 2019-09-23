@@ -51,6 +51,16 @@
  		  "flag_remove_chars": 1,
  		  "remove_chars": [".","đ"]
  		},   
+ 		{
+ 		  "website":"fptshop.com.vn",  
+ 		  "flag_use_x_path": 1,  
+ 		  "x_path_query": "//p[contains(@class,'fs-dtprice')]",
+ 		  "flag_use_regex": 0,   
+ 		  "regex_query": "", 
+ 		  "index": 2,
+ 		  "flag_remove_chars": 1,
+ 		  "remove_chars": [".","đ"," ","	"]
+ 		},   
 
  		{
  		  "website":"amazon",

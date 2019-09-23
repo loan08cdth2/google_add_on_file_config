@@ -23,9 +23,9 @@
  		  "x_path_query": "//strong[@class='currentPrice_2zpf']",
  		  "flag_use_regex": 0,
  		  "regex_query": "",
+ 		  "index": 2,
  		  "flag_remove_chars": 1,
- 		  "remove_chars": [".","đ"],
- 		  "index": 2
+ 		  "remove_chars": [".","đ"]
  		},   
 
  		{
@@ -36,7 +36,9 @@
  		  "regex_xpath": "(\"price\":)([0-9]+[.]*[0-9]*)",
  		  "flag_use_regex": 1,   
  		  "regex_query": "(\"price\":)([0-9]+[.]*[0-9]*)", 
- 		  "index": 2
+ 		  "index": 2,
+ 		  "flag_remove_chars": 1,
+ 		  "remove_chars": [".","đ"]
  		},   
 
  		{

@@ -5,8 +5,9 @@
  		  "flag_use_x_path": 0,      
  		  "x_path_query": "",        
  		  "flag_use_regex": 1,       
- 		  "regex_query": "(id=\"product_price\").*value\=\"([0-9])",         
+ 		  "regex_query": "(id=\"product_price\").*value=\"([0-9])",         
  		  "index": 2                
- 		}
+ 		}                           
+
  	  ]                              
  	}

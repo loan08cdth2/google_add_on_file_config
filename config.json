@@ -59,7 +59,7 @@
  		  "regex_query": "", 
  		  "index": 2,
  		  "flag_remove_chars": 1,
- 		  "remove_chars": [".","đ"," ","	"]
+ 		  "remove_chars": [".","đ"]
  		},   
 
  		{

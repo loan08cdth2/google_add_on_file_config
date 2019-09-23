@@ -1,11 +1,11 @@
 {
  "root":[
    {
-      "mail":"loan08cdth2@gmail.com",
+      "email":"loan08cdth2@gmail.com",
       "expired_date" : "2020/12/01"
    },
    {
-      "mail":"congson1919@gmail.com",
+      "email":"congson1919@gmail.com",
       "expired_date" : "2020/12/01"
    }
  ]

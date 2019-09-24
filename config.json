@@ -26,7 +26,18 @@
  		  "index": 2,
  		  "flag_remove_chars": 1,
  		  "remove_chars": [".","đ"]
- 		},   
+ 		},
+
+ 		{
+ 		  "website":"www.thegioididong.com",  
+ 		  "flag_use_x_path": 1,  
+ 		  "x_path_query": "//div[@id='normalproduct']//div[@class='area_price']//strong[1]",
+ 		  "flag_use_regex": 0,
+ 		  "regex_query": "",
+ 		  "index": 2,
+ 		  "flag_remove_chars": 1,
+ 		  "remove_chars": [".","đ","₫"]
+ 		},
 
  		{
  		  "website":"lazada" ,

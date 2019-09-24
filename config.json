@@ -38,7 +38,7 @@
  		  "regex_query": "(\"price\":)([0-9]+[.]*[0-9]*)", 
  		  "index": 2,
  		  "flag_remove_chars": 1,
- 		  "remove_chars": [".","đ"]
+ 		  "remove_chars": [".0",".00"]
  		},   
 
  		{

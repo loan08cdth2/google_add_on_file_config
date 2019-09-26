@@ -49,6 +49,16 @@
  		  "remove_chars": [".","đ",".","."]
  		},
  		{
+ 		  "website":"vinpro.net",  
+ 		  "flag_use_x_path": 1,  
+ 		  "x_path_query": "//span[@class='price']",
+ 		  "flag_use_regex": 1,
+ 		  "regex_query": "([0-9.]+)([ đ])*",
+ 		  "index": 1,
+ 		  "flag_remove_chars": 1,
+ 		  "remove_chars": [".","đ",".","."," "]
+ 		},
+ 		{
  		  "website":"dienmaycholon.vn",  
  		  "flag_use_x_path": 1,  
  		  "x_path_query": "//div[@class='right_detail']//div[@class='box_price']//strong[@class='price_sale']",

@@ -2,8 +2,8 @@
  "root":[
    {
       "email":"trialaddon@gmail.com",
-      "expired_date" : "2019/10/05",
-      "flag_trial": 1
+      "expired_date" : "2019/11/01",
+      "flag_trial": 0
    },
    {
       "email":"loan08cdth2@gmail.com",

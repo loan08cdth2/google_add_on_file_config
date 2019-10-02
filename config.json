@@ -116,7 +116,7 @@
  		{
  		  "website":"fptshop.com.vn",  
  		  "flag_use_x_path": 1,  
- 		  "x_path_query": "//p[contains(@class,'fs-dtprice')]",
+ 		  "x_path_query": "substring-before(//p[contains(@class,'fs-dtprice')][1]//text(),' ')",
  		  "flag_use_regex": 1,   
  		  "regex_query": "([0-9.]{3,15})+", 
  		  "index": 1,
